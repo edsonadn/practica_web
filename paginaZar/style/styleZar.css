@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: grey;
+}
+#ImagenP{
+    width: 100px; 
+}
+nav{
+    background-color: chocolate;
+    text-align: center;
+    height: 40px;
+    line-height: 5px;
+    border-bottom: 1px solid black;
+}
+nav ul li{    
+    margin: 10px;
+    list-style: none;
+    float: left;
+}
+ul li{
+    list-style: none;
+}
+header{
+    line-height: 1px;
+}
+.Arriba{
+    clear: both;
+}
+aside{
+    float: left;
+    width: calc(20% - 10px);
+    background-color: cadetblue;
+    min-height: 500px;
+    padding: 5px;
+}
+main{
+    float: left;
+    width: calc(80% - 10px);
+    background-color: gainsboro;
+    min-height: 500px;
+}
+.Derecha{
+    background-color: cadetblue;
+}
